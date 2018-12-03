@@ -1,23 +1,31 @@
 body{
-  background-color: blue;
+  background:efeee7;
   margin: 0%;
   padding: 0%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   line-height: 150%;
+  color: 333;
 }
 
+header {background-color: #purple}
+
 h1{
-  color: brown;
-  background-color: fuchsia;
+  color:#fff;
+  background-color: #d21034;
   margin: 0%;
+  margin-bottom: 20px
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+h2 {font-size: 24px;
+}
+
+
 a{
-  color: aqua;
+  color: #d21034;
 }
 
 .container {
