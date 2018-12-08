@@ -1,0 +1,96 @@
+body{
+  background-image: url("../assets/images/circuit.png")
+}
+
+header{
+  color: #ffffff;
+  border-color: #cccccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  background-color: #4aaaa5;
+  padding: 10px;
+}
+
+.navbar{
+  font-size: 38px;
+  background-color:#ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+}
+.center {
+  margin-top: 0;
+  margin-right: auto; 
+  margin-bottom: 0; 
+  margin-left: auto;
+  width: 960px;
+}
+
+.links{
+  float: right;
+  margin-top: 10px; 
+}
+a {color: #777;
+}
+
+ a{
+  text-decoration: none;
+  color: #;
+ } 
+
+
+.container{
+  width: 960px;
+  margin: 100px auto;
+  background-color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.forms {
+  margin: 20px;
+  color: #777;
+}
+
+.title{
+  margin: 20px;
+}
+
+
+input{
+  width: 100%;
+}
+
+
+#submit-button{
+width: 10%;
+background-color: #4aaaa5;
+color: #ffffff;
+}
+
+.copyright  {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: 3px;
+  border-top-color: #4aaaa5;
+  }
+
+  .copyright{
+    text-align: center;
+    background-color: #666;
+    height: 40px;
+    width: auto;
+    /* border-top-color: #4aaaa5; */
+    color: #777;
+    border-top: 2px;
+    border-top-color: #4aaaa5;
+    
+  }
+
+.copyright_color{
+  color: #ffffff;
+}
