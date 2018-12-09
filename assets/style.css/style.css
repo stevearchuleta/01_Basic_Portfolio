@@ -1,16 +1,10 @@
-*{
-  box-sizing: border-box;
-}
 
 /*from subtleimages.com*/
 body{
-  background-image: url("../assets/images/circuit.png");
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: #4aaaa5; */
+  background-image: url("../assets/images/circuit.png")
 }
 
-/*navbar wraps four (4) tags [a div called header, a div called center, a div called links, and my <a> tags. By setting navbar's position to absolute, it becomes positioned relative to its parent, which is the body. I had to specify zero positioning at the top, right, and left in order to tighten the element to the edge of the browser*/
+/*navbar wraps four (4) tags [a div called center, my header, a div called links, and my <a> tags. By setting navbar's position to absolute, it becomes positioned relative to its parent, which is the body. I had to specify zero positioning at the top, right, and left in order to tighten the element to the edge of the browser*/
 .navbar{
   font-size: 38px;
   background-color:#ffffff;
@@ -27,9 +21,7 @@ header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   float: left;
   background-color: #4aaaa5;
- text-align: center;
-  width: 400px;
-  height: 45px
+  padding: 10px;
 }
 
 /*center a content width of 960px by adjusting margins; i know how to use the margin shorthand, but I shall revsit this page to learn, and I am too new to practice this technique */
@@ -39,19 +31,22 @@ header{
   margin-bottom: 0; 
   margin-left: auto;
   width: 960px;
-  clear: both;
 }
 
-h1{
-  color: #4aaaa5;
-  font-family: Arial, Helvetica, sans-serif;
+.image{
+  position: relative;
+  float:left;
+
+}
+
+#pic-tag{
+  position:absolute;
 }
 
 /*I could have made my links a <ul><li>, but this worked well enough.  Ask Uzair or Jose the benefits of making a navbar menu an unordered list*/
 .links{
   float: right;
-  margin-top: 10px;
-  
+  margin-top: 10px; 
 }
 
 /*this markup command rids each menu item from the underline (which was distracting.  By setting the color to hashtag, I eliminate the ugly default blue color of a link*/
@@ -91,45 +86,26 @@ background-color: #4aaaa5;
 color: #ffffff;
 }
 
-.image{
-  position: relative;
-  float: left;
-  overflow: auto;
-  margin: 20px 0 20px;
- 
-}
-.pic-tag{
-  position: absolute;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  margin: right 40px;
-
-
-}
-
 /*Herein, I have styled my footer. For some reason, the teal-colored line is not appearing. I need help with this.*/
 .copyright  {
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
-  border-top: 3px;
-  border-top-color: #4aaaa5;
-  }
+}
 /*I must decide which of these (above and below)has extraneous, unnecesssary CSS rules, then I must combine both .copyrights*/
-  .copyright{
-    text-align: center;
-    background-color: #666;
-    height: 40px;
-    width: auto;
-    /* border-top-color: #4aaaa5; */
-    color: #777;
-    border-style: solid;
-    /* border-top: 2px; */
-    border-width: 10px 0px 0px 0px;
-    border-top-color: #4aaaa5;
-    
-  }
+.copyright {
+  text-align: center;
+  background-color: #666;
+  height: 40px;
+  width: auto;
+  /* border-top-color: #4aaaa5; */
+  color: #777;
+  border-style: solid;
+  /* border-top: 2px; */
+  border-width: 10px 0px 0px 0px;
+  border-top-color: #4aaaa5;
+}
 
   /*self explanatory*/
 .copyright_color{
