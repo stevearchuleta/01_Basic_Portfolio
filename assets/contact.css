@@ -20,7 +20,7 @@ body{
   left: 0;
   
 }
-/*one of the easiest tags to understand; note to self... I had to float this element left*/
+/*header is one of the easiest tags to understand; note to self... I had to float this element left*/
 header{
   color: #ffffff;
   border-color: #cccccc;
@@ -51,8 +51,18 @@ h1{
 .links{
   float: right;
   margin-top: 10px;
-  
 }
+.bar{
+color: #777;
+vertical-align: 10px;
+}
+
+
+
+
+
+
+
 
 /*this markup command rids each menu item from the underline (which was distracting.  By setting the color to hashtag, I eliminate the ugly default blue color of a link*/
 a {color: #777;
@@ -63,14 +73,14 @@ a {color: #777;
 /*notice how the margin of this container is set to auto. This mirrors the centering of the navbar above, and since both elements are set to a required width of 960px, the margin auto works on the left and right side to center everthing inside this selector.  The 100px is for the top and bottom ("I'm using shorthand slowly but surely!"*/
 .container{
   width: 960px;
-  margin: 100px auto;
+  margin-top: 60px;
   background-color:#ffffff;
   font-family: Arial, Helvetica, sans-serif;
   
 }
 /*this gives the word "Contact" a 20px margin, but I sense that this could have somehow been achieved within a parent element. Hummm? */
 .title{
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 /*Notice how my contact labes have draw themselves away from the white edges of the container element.*/
@@ -90,19 +100,25 @@ width: 10%;
 background-color: #4aaaa5;
 color: #ffffff;
 }
-
+.gallery{
+  /* width: 350px; */
+  /* height: 350px; */
+}
 .image{
   position: relative;
   float: left;
-  overflow: auto;
-  margin: 20px 0 20px;
+  /* width: 300; */
+  /* height: auto; */
+  margin-top: 10px; margin-right: 20px;
  
 }
-.pic-tag{
+.caption{
   position: absolute;
   background-color: #4aaaa5;
   color: #ffffff;
   margin: right 40px;
+  bottom: 2px;
+  left: 25%;
 
 
 }
