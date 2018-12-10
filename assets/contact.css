@@ -45,7 +45,7 @@ header{
 h1{
   color: #4aaaa5;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 100px;
+  margin: 100px 10px 0px; */
 }
 
 /*I could have made my links a <ul><li>, but this worked well enough.  Ask Uzair or Jose the benefits of making a navbar menu an unordered list*/
@@ -74,6 +74,7 @@ a {color: #777;
   margin-left: auto;
   background-color:#ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
   /* margin: auto; */
 }
 
@@ -143,6 +144,7 @@ color: #ffffff;
     /* border-top: 2px; */
     border-width: 10px 0px 0px 0px;
     border-top-color: #4aaaa5;
+    
     
   }
 
