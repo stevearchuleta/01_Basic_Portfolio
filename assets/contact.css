@@ -32,7 +32,7 @@ header{
   height: 45px
 }
 
-/*center a content width of 960px by adjusting margins; i know how to use the margin shorthand, but I shall revsit this page to learn, and I am too new to practice this technique */
+/*center a content width of 960px by adjusting margins; i know how to use the margin shorthand, but, I am too new to practice this technique */
 .center {
   margin-top: 0;
   margin-right: auto; 
@@ -45,6 +45,7 @@ header{
 h1{
   color: #4aaaa5;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 100px;
 }
 
 /*I could have made my links a <ul><li>, but this worked well enough.  Ask Uzair or Jose the benefits of making a navbar menu an unordered list*/
@@ -58,13 +59,7 @@ vertical-align: 10px;
 }
 
 
-
-
-
-
-
-
-/*this markup command rids each menu item from the underline (which was distracting.  By setting the color to hashtag, I eliminate the ugly default blue color of a link*/
+/*this markup command rids each linked menu item from the default underline (which was distracting).  By setting the color to hashtag, I eliminate the ugly default blue color of a link*/
 a {color: #777;
   text-decoration: none;
   color: #;
@@ -73,14 +68,18 @@ a {color: #777;
 /*notice how the margin of this container is set to auto. This mirrors the centering of the navbar above, and since both elements are set to a required width of 960px, the margin auto works on the left and right side to center everthing inside this selector.  The 100px is for the top and bottom ("I'm using shorthand slowly but surely!"*/
 .container{
   width: 960px;
-  margin-top: 60px;
+  margin-top: 0;
+  margin-right: auto; 
+  margin-bottom: 0; 
+  margin-left: auto;
   background-color:#ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  
+  /* margin: auto; */
 }
+
 /*this gives the word "Contact" a 20px margin, but I sense that this could have somehow been achieved within a parent element. Hummm? */
 .title{
-  /* margin: 20px; */
+  margin-bottom: 20px;
 }
 
 /*Notice how my contact labes have draw themselves away from the white edges of the container element.*/
