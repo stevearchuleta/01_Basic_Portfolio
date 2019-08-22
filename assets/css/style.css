@@ -123,6 +123,11 @@ header {
   margin-right: 25px;
 }
 
+td{
+  padding:4px 40px 4px 40px;
+  font-size: 12px;
+}
+
 .sidebar {
   background: #fff;
   padding: 30px;
@@ -261,4 +266,83 @@ input[type=submit] {
   font-size: 10px;
   padding: 10px 30px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 953px){
+  .container {
+    padding: 0 20px;
+    max-width: 768px;;
+  }
+  #main-container {
+    padding-top: 130px;
+  }
+  .main-container {
+    max-width: 420px;
+  }
+ 
+  .main-container {
+    width: 100%
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  td {
+  padding: 4px 15px 4px 15px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .main-container, .sidebar {
+    max-width: 100%;
+  }
+  #main-container {
+    overflow: auto;
+  }
+  .sidebar {
+    margin-bottom: 40px;
+  }
+  .main-container {
+    width: 98%;
+    margin-bottom: 10px;
+  }
+  .main-container:nth-child(even) {
+    margin-right: 0;
+  }
+  .main-container:nth-child(odd) {
+    float: right;
+  }
+  .auth-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 569px) {
+    #master-header {
+      position: static;
+      margin-bottom: 20px;
+      /* text-align: center; */
+    }
+    header.container {
+      padding: 0;
+    }
+    #logo, .main-container, .auth-image {
+      width: 100%;
+    }
+    nav {
+      text-align: center;
+      width: 100%;
+      margin: 15px, 0;
+      /* display: inline-block; */
+    }
+    nav.a {
+      width: 30%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    #main-container.container {
+      padding-top: 0;
+    }
+
 }
